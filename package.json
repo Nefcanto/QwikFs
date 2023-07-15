@@ -1,0 +1,61 @@
+{
+    "name": "qwik",
+    "engines": {
+        "node": ">=15.0.0"
+    },
+    "private": true,
+    "scripts": {
+        "build": "qwik build",
+        "build.client": "vite build",
+        "build.preview": "vite build --ssr src/entry.preview.tsx",
+        "build.server": "vite build -c adapters/express/vite.config.js",
+        "build.types": "tsc --incremental --noEmit",
+        "deploy": "node server/entry.express",
+        "dev": "vite --mode ssr",
+        "dev.debug": "node --inspect-brk ./node_modules/vite/bin/vite.js --mode ssr --force",
+        "fmt": "prettier --write .",
+        "fmt.check": "prettier --check .",
+        "lint": "eslint \"src/**/*.ts*\"",
+        "preview": "qwik build preview && vite preview",
+        "serve": "node server/entry.express",
+        "start": "vite --mode ssr",
+        "qwik": "qwik"
+    },
+    "devDependencies": {
+        "@auth/core": "^0.9.0",
+        "@builder.io/partytown": "^0.8.0",
+        "@builder.io/qwik": "^1.2.6",
+        "@builder.io/qwik-auth": "~0.1.0",
+        "@builder.io/qwik-city": "^1.2.6",
+        "@tailwindcss/typography": "^0.5.8",
+        "@types/compression": "^1.7.2",
+        "@types/eslint": "^8.44.0",
+        "@types/express": "^4.17.17",
+        "@types/node": "^20.4.2",
+        "@typescript-eslint/eslint-plugin": "^6.0.0",
+        "@typescript-eslint/parser": "^6.0.0",
+        "autoprefixer": "^10.4.14",
+        "compression": "^1.7.4",
+        "escodegen": "^2.1.0",
+        "eslint": "^8.45.0",
+        "eslint-plugin-qwik": "^1.2.6",
+        "estraverse": "^5.3.0",
+        "express": "^4.18.2",
+        "nightly-esprima": "^2021.8.30",
+        "node-fetch": "^3.3.1",
+        "postcss": "^8.4.26",
+        "prettier": "^3.0.0",
+        "tailwindcss": "^3.3.3",
+        "typescript": "^5.1.6",
+        "undici": "5.22.1",
+        "vite": "^4.4.4",
+        "vite-tsconfig-paths": "^4.2.0"
+    },
+    "dependencies": {
+        "axios": "^1.4.0",
+        "glider-js": "^1.7.8",
+        "prismjs": "^1.29.0",
+        "swiper": "^10.0.4",
+        "tailwind-merge": "^1.13.2"
+    }
+}

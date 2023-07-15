@@ -1,0 +1,157 @@
+{
+	"extends": "./TsConfigBase",
+	"compilerOptions": {
+		"paths": {
+			"Accounts": [
+				"src/Modules/Accounts/Exports"
+			],
+			"Base": [
+				"src/Base/Exports"
+			],
+			"Blog": [
+				"src/Modules/Blog/Exports"
+			],
+			"BlogParts": [
+				"src/Components/BlogParts/Exports"
+			],
+			"Collaboration": [
+				"src/Modules/Collaboration/Exports"
+			],
+			"Configuration": [
+				"src/Modules/Configuration/Exports"
+			],
+			"Contents": [
+				"src/Modules/Contents/Exports"
+			],
+			"Courses": [
+				"src/Modules/Courses/Exports"
+			],
+			"CoursesParts": [
+				"src/Components/CoursesParts/Exports"
+			],
+			"Dashboard": [
+				"src/Components/Dashboard/Exports"
+			],
+			"Discounts": [
+				"src/Modules/Discounts/Exports"
+			],
+			"Entities": [
+				"src/Modules/Entities/Exports"
+			],
+			"Faqs": [
+				"src/Modules/Faqs/Exports"
+			],
+			"Forms": [
+				"src/Modules/Forms/Exports"
+			],
+			"Galleries": [
+				"src/Modules/Galleries/Exports"
+			],
+			"Geo": [
+				"src/Modules/Geo/Exports"
+			],
+			"Globalization": [
+				"src/Modules/Globalization/Exports"
+			],
+			"Index": [
+				"src/Components/Index/Exports"
+			],
+			"InstructorParts": [
+				"src/Components/InstructorParts/Exports"
+			],
+			"IranPayment": [
+				"src/Modules/IranPayment/Exports"
+			],
+			"Layout": [
+				"src/Components/Layout/Exports"
+			],
+			"Logs": [
+				"src/Modules/Logs/Exports"
+			],
+			"Marketing": [
+				"src/Modules/Marketing/Exports"
+			],
+			"Media": [
+				"src/Modules/Media/Exports"
+			],
+			"Navigation": [
+				"src/Modules/Navigation/Exports"
+			],
+			"Orders": [
+				"src/Modules/Orders/Exports"
+			],
+			"PageParts": [
+				"src/Components/PageParts/Exports"
+			],
+			"PostParts": [
+				"src/Components/PostParts/Exports"
+			],
+			"ProductParts": [
+				"src/Components/ProductParts/Exports"
+			],
+			"Products": [
+				"src/Modules/Products/Exports"
+			],
+			"ProductsParts": [
+				"src/Components/ProductsParts/Exports"
+			],
+			"ProjectParts": [
+				"src/Components/ProjectParts/Exports"
+			],
+			"Projects": [
+				"src/Modules/Projects/Exports"
+			],
+			"ProjectsParts": [
+				"src/Components/ProjectsParts/Exports"
+			],
+			"QuestionParts": [
+				"src/Components/QuestionParts/Exports"
+			],
+			"Questions": [
+				"src/Modules/Questions/Exports"
+			],
+			"QuestionsParts": [
+				"src/Components/QuestionsParts/Exports"
+			],
+			"RichTextComponents": [
+				"src/RichTextComponents"
+			],
+			"Sales": [
+				"src/Modules/Sales/Exports"
+			],
+			"Seo": [
+				"src/Modules/Seo/Exports"
+			],
+			"Shared": [
+				"src/Components/Shared/Exports"
+			],
+			"Social": [
+				"src/Modules/Social/Exports"
+			],
+			"Svg": [
+				"src/Components/Svg/Exports"
+			],
+			"TagsParts": [
+				"src/Components/TagsParts/Exports"
+			],
+			"Taxonomy": [
+				"src/Modules/Taxonomy/Exports"
+			],
+			"Ticketing": [
+				"src/Modules/Ticketing/Exports"
+			],
+			"Units": [
+				"src/Modules/Units/Exports"
+			],
+			"Vlog": [
+				"src/Modules/Vlog/Exports"
+			],
+			"VlogParts": [
+				"src/Components/VlogParts/Exports"
+			],
+			"VlogPostParts": [
+				"src/Components/VlogPostParts/Exports"
+			]
+		}
+	}
+}
